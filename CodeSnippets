@@ -1,0 +1,124 @@
+for str in 'string':
+	print(str)
+print("done")
+
+for x in ["The", "rain", "in", "Spain"]:
+	print(x)
+print("Done")
+
+zipper = "up"
+if zipper == "down":
+    print ("zipper down")
+    print ("zips up")
+elif zipper == "up":
+    print ("zipper up")
+    print ("zips down")
+
+zipper = "up"
+if zipper == "down":
+    print ("zipper down")
+    print ("zips up")
+else:
+    print ("zipper up")
+    print ("zips down")
+
+x=3
+if x>1:
+    print("greater")
+elif x == 3:           #messed up, 3 input shows 'greater'
+    print("x is three")
+elif x == 1:
+    print ("x is one")
+else:
+    print ("x is < 1")
+
+y = 4
+if y == 3 or 4:
+    print("3 or 4")
+
+total = 100
+taxable = true
+if taxable:
+    #fill in
+
+if taxable == True:
+same thing as..
+taxable = true
+
+print = true
+if print:
+     print("5")
+
+import random
+print("Odd numbers")
+counter = 0
+while counter <10:
+    number = random.randint(1,999)
+    print(number)
+    counter +=1
+
+dictionaries - equip slots, key for rhand, swap new weapon
+functions - combat, attacking vs creature, armor 
+classes - types of weapons, monsters, armors
+
+class Member:
+	def __init__(self, uname, fname):
+		self.username = uname 
+		self.fullname = fname
+new_guy = Member('Rambo', 'Rocco Moe')
+print(new_guy)
+print(new_guy.username)
+print(new_guy.fullname)
+print(type(new_guy))
+
+class Monster:
+	def __init__(self, attack, defense):
+		self.username = attack 
+		self.fullname = defense
+VampireLord = Monster(20+5, 'def')
+print(VampireLord)
+print(VampireLord.username)
+print(VampireLord.fullname)
+print(type(VampireLord))
+
+def hi():
+	print(VampireLord)
+hi()
+
+powershell
+pwd - path with directory
+cd
+ls - list
+cd ..
+up
+cd ..\..
+cd danpr\documents
+
+bash
+mkdir
+touch (make file)
+rm cat (remove)
+cat (print text of file)
+-a (print all files)c
+cd strt name tab
+
+py hello.py (run program)
+
+
+
+git clone link
+
+
+mingw64
+
+
+
+
+
+
+def pickUp():
+    backpack == empty
+    if backpack = empty:
+        print('picksUp')
+    else:
+        print('no space')
